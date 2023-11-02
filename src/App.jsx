@@ -6,7 +6,7 @@ import SkillList from "./components/skillList/SkillList";
 function App() {
   return (
     <div className="card">
-      <Avatar />
+      <Avatar photo={"avatar.webp"} name={"Artem"} />
       <div className="data">
         <Intro />
         {/* Should contain one Skill component
