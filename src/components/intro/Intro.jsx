@@ -1,5 +1,3 @@
-import React from "react";
-
 const Intro = ({ introText }) => {
   return <p>{introText}</p>;
 };
