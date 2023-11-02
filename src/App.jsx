@@ -14,7 +14,10 @@ function App() {
         {/* Should contain one Skill component
         for each web dev skill that you have,
         customized with props */}
-        <SkillList />
+        <SkillList skill={"HTML+CSS"} level={"💪"} background={"blue"} />
+        <SkillList skill={"JavaScript"} level={"💪"} background={"yellow"} />
+        <SkillList skill={"Git and GitHub"} level={"💪"} background={"red"} />
+        <SkillList skill={"React"} level={"👍"} background={"blue"} />
       </div>
     </div>
   );
