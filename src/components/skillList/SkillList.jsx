@@ -1,9 +1,12 @@
-const SkillList = ({ skill, level, background }) => {
+import Skill from "./skill/Skill";
+
+const SkillList = () => {
   return (
     <div className="skill-list">
-      <div className="skill" style={{ backgroundColor: { background } }}>
-        {skill} {level}
-      </div>
+      <Skill skill={"HTML+CSS"} level={"💪"} background={"orangered"} />
+      <Skill skill={"JavaScript"} level={"💪"} background={"yellow"} />
+      <Skill skill={"Git and GitHub"} level={"💪"} background={"red"} />
+      <Skill skill={"React"} level={"👍"} background={"blue"} />
     </div>
   );
 };
